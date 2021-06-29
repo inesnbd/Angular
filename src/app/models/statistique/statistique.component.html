@@ -6,3 +6,10 @@
     <p *ngFor="let stat of listeStatistique"> {{ stat.title }}</p>
 
 </li>
+
+<div *ngFor='let donnees of mesDonnees'>
+
+    <ul>
+        <li>{{ donnees.stat }}</li>
+    </ul>
+</div>
