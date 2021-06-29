@@ -22,4 +22,7 @@ describe('StatistiqueComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  
 });
+

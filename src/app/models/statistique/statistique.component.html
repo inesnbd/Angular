@@ -1,2 +1,8 @@
 <p>statistique works!</p>
 <p>150</p>
+
+<li class="list-group-item">
+    <h2>Liste des statistiques : {{ listeStat }} </h2>
+    <p *ngFor="let stat of listeStatistique"> {{ stat.title }}</p>
+
+</li>
